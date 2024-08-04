@@ -41,8 +41,7 @@ body{
     .clock{
         align-items:center;
         justify-content:center;
-height: 200px;
-       width: 200px; 
+       width: 100%; 
 
 
     }
@@ -62,14 +61,14 @@ justify-content: center;
    justify-content: center;
    align-items: center;
    display: flex;
-        width: 200px;
-        height: 200px;
+        width: 100%;
+        height: 100%;
       
       
     }
     .clock{
-height:200px;
-       width: 200px; 
+height:100%;
+       width: 100%; 
        align-items: center;
        justify-content: center;
        position: relative;
