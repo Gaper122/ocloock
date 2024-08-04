@@ -28,13 +28,13 @@ body{
 }
     @media screen and (max-width: 450px) {
   .container{
-      background:#red;
+      background:#000;
       align-items:center;
       height:100%;
     width: 100%;
   }
 .oclock{
-    background:#red;
+    background:#ccc;
     width:100%
 }
 }
