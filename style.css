@@ -34,6 +34,8 @@ body{
     width: 100%;
   }
 .oclock{
+    min-height:100vh;
+    height:100%;
     background:#ccc;
     width:100%
 }
