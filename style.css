@@ -25,13 +25,12 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-}
-@mediaquery(max-width:440px){
-.container{
-    background:#red;
-    align-items:center;
-    justify-content:center;
-}
+    @media screen and (max-width: 450px) {
+  .container{
+      align-items:center;
+      height:100%;
+    width: 100%;
+  }
 }
 .clock{
     position: relative;
