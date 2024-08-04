@@ -33,6 +33,10 @@ body{
       height:100%;
     width: 100%;
   }
+.oclock{
+    background:#red;
+    width:100%
+}
 }
 .clock{
     position: relative;
