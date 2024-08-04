@@ -27,6 +27,7 @@ body{
     flex-direction: column;
     @media screen and (max-width: 450px) {
   .container{
+      background:#red;
       align-items:center;
       height:100%;
     width: 100%;
