@@ -26,23 +26,39 @@ body{
     align-items: center;
     flex-direction: column;
 }
-    @media screen and (max-width:320px) {
-  .container{
-      background:#000;
-      align-items:center;
-      height:100%;
-    width: 100%;
-  }
-        body{
-            min-height 100vh;
-            margin:0;
-        }
-.oclock{
-    min-height:100vh;
-    height:150px;
-    background:#ccc;
-    width:150px
-}
+@media screen and (max-width:320px){
+    .container{
+        width: 300px;
+        left: 20px;
+        top: 10px;
+    
+    
+   
+ 
+      
+      
+    }
+    .clock{
+     
+    width: 310px;
+    
+    height: 310px;
+    }
+    #sc {
+        width: 238px;
+        height: 238px;
+    }
+   
+    #mn{
+        width: 182px;
+        height: 182px;
+       
+    }
+    #hr{
+        width: 129px;
+        height: 129px;
+       
+    }
 }
 .clock{
     position: relative;
